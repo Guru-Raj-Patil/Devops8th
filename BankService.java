@@ -18,7 +18,7 @@ class BankAccount
 		if(amount>0 && amount<=balance)
 		{
 			balance -= amount;
-			System.out.println("Balance after withdrawal of 100: hello"+balance);
+			System.out.println("Balance after withdrawal of 100: "+balance);
 		}
 	}
 }
